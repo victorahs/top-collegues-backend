@@ -21,11 +21,10 @@ public class Collegue {
 	@Column(name = "ID")
 	private Integer id;
 	
-	@Column(name = "NOM")
-	private String nom;
+	@Column(name = "PSEUDO")
+	private String pseudo;
 	
-	@Column(name = "PRENOM")
-	private String prenom;
+
 	
 	@Column(name = "URL_IMAGE")
 	private String urlImage;
@@ -37,21 +36,6 @@ public class Collegue {
 		// Constructeur vide
 	}
 
-	/** Constructor
-	 * @param id
-	 * @param nom
-	 * @param prenom
-	 * @param urlImage
-	 * @param score
-	 */
-	public Collegue(Integer id, String nom, String prenom, String urlImage, Integer score) {
-		this.id = id;
-		this.nom = nom;
-		this.prenom = prenom;
-		this.urlImage = urlImage;
-		this.score = score;
-	}
-
 	/** Getter
 	 * @return the id
 	 */
@@ -59,18 +43,33 @@ public class Collegue {
 		return id;
 	}
 
-	/** Getter
-	 * @return the nom
+	/**
+	 * Setter
+	 * 
+	 * @param id
+	 *            the id to set
 	 */
-	public String getNom() {
-		return nom;
+	public void setId(Integer id) {
+		this.id = id;
 	}
 
-	/** Getter
-	 * @return the prenom
+	/**
+	 * Getter
+	 * 
+	 * @return the pseudo
 	 */
-	public String getPrenom() {
-		return prenom;
+	public String getPseudo() {
+		return pseudo;
+	}
+
+	/**
+	 * Setter
+	 * 
+	 * @param pseudo
+	 *            the pseudo to set
+	 */
+	public void setPseudo(String pseudo) {
+		this.pseudo = pseudo;
 	}
 
 	/** Getter
@@ -80,6 +79,16 @@ public class Collegue {
 		return urlImage;
 	}
 
+	/**
+	 * Setter
+	 * 
+	 * @param urlImage
+	 *            the urlImage to set
+	 */
+	public void setUrlImage(String urlImage) {
+		this.urlImage = urlImage;
+	}
+
 	/** Getter
 	 * @return the score
 	 */
@@ -87,39 +96,24 @@ public class Collegue {
 		return score;
 	}
 
-	/** Setter
-	 * @param id the id to set
-	 */
-	public void setId(Integer id) {
-		this.id = id;
-	}
-
-	/** Setter
-	 * @param nom the nom to set
-	 */
-	public void setNom(String nom) {
-		this.nom = nom;
-	}
-
-	/** Setter
-	 * @param prenom the prenom to set
-	 */
-	public void setPrenom(String prenom) {
-		this.prenom = prenom;
-	}
-
-	/** Setter
-	 * @param urlImage the urlImage to set
-	 */
-	public void setUrlImage(String urlImage) {
-		this.urlImage = urlImage;
-	}
-
-	/** Setter
-	 * @param score the score to set
+	/**
+	 * Setter
+	 * 
+	 * @param score
+	 *            the score to set
 	 */
 	public void setScore(Integer score) {
 		this.score = score;
 	}
-		
+
+	public Collegue(Integer id, String pseudo, String urlImage, Integer score) {
+		super();
+		this.id = id;
+		this.pseudo = pseudo;
+		this.urlImage = urlImage;
+		this.score = score;
+	}
+
+
+
 }

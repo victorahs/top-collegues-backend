@@ -34,13 +34,13 @@ public class CollegueController {
 	}
 
 	@PatchMapping("/{nomCollegue}")
-	public Collegue updateAvis(@PathVariable(value = "nomCollegue") String nomCollegue, @RequestBody Vote vote) {
+	public Collegue updateAvis(@PathVariable(value = "nomCollegue") String pseudoCollegue, @RequestBody Vote vote) {
 
 		Collegue collegue = new Collegue();
 
-		if (collegueRepository.existsByNom(nomCollegue)) {
+		if (collegueRepository.existsByPseudo(pseudoCollegue)) {
 
-			collegue = this.collegueRepository.findByNom(nomCollegue);
+			collegue = this.collegueRepository.findByPseudo(pseudoCollegue);
 
 			collegue.setScore(collegue.getScore() + CollegueService.getResultat(vote.getAction()));
 

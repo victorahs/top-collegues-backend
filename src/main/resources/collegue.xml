@@ -5,56 +5,56 @@
 		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.3.xsd">
 
 	<bean id="C1" class="com.example.topcolleguesbackend.entite.Collegue">
-		<property name="nom" value="Chêne"></property>
-		<property name="prenom" value="Emmanuel"></property>
+		<property name="pseudo" value="sum41"></property>
+		
 		<property name="score" value="100"></property>
 		<property name="urlImage"
 			value="http://www.cnfpt.fr/sites/default/files/images/verbatim/field_visuel_verbatim/1488365975/icone_contact.png"></property>
 	</bean>
 
 	<bean id="C2" class="com.example.topcolleguesbackend.entite.Collegue">
-		<property name="nom" value="Ahsene"></property>
-		<property name="prenom" value="Victor"></property>
+		<property name="pseudo" value="Yoshi"></property>
+		
 		<property name="score" value="0"></property>
 		<property name="urlImage"
 			value="http://www.cnfpt.fr/sites/default/files/images/verbatim/field_visuel_verbatim/1488365975/icone_contact.png"></property>
 	</bean>
 
 	<bean id="C3" class="com.example.topcolleguesbackend.entite.Collegue">
-		<property name="nom" value="Buteau"></property>
-		<property name="prenom" value="Axel"></property>
+		<property name="pseudo" value="Buteau"></property>
+	
 		<property name="score" value="-1"></property>
 		<property name="urlImage"
 			value="http://www.cnfpt.fr/sites/default/files/images/verbatim/field_visuel_verbatim/1488365975/icone_contact.png"></property>
 	</bean>
 
 	<bean id="C4" class="com.example.topcolleguesbackend.entite.Collegue">
-		<property name="nom" value="Darcy"></property>
-		<property name="prenom" value="Alexis"></property>
+		<property name="pseudo" value="Darcy"></property>
+		
 		<property name="score" value="0"></property>
 		<property name="urlImage"
 			value="http://www.cnfpt.fr/sites/default/files/images/verbatim/field_visuel_verbatim/1488365975/icone_contact.png"></property>
 	</bean>
 
 	<bean id="C5" class="com.example.topcolleguesbackend.entite.Collegue">
-		<property name="nom" value="Gobert"></property>
-		<property name="prenom" value="Guillaume"></property>
+		<property name="pseudo" value="Gobert"></property>
+		
 		<property name="score" value="0"></property>
 		<property name="urlImage"
 			value="http://www.cnfpt.fr/sites/default/files/images/verbatim/field_visuel_verbatim/1488365975/icone_contact.png"></property>
 	</bean>
 
 	<bean id="C6" class="com.example.topcolleguesbackend.entite.Collegue">
-		<property name="nom" value="Lefebvre"></property>
-		<property name="prenom" value="Valentin"></property>
+		<property name="pseudo" value="Lefebvre"></property>
+		
 		<property name="score" value="0"></property>
 		<property name="urlImage"
 			value="http://www.cnfpt.fr/sites/default/files/images/verbatim/field_visuel_verbatim/1488365975/icone_contact.png"></property>
 	</bean>
 
 	<bean id="C7" class="com.example.topcolleguesbackend.entite.Collegue">
-		<property name="nom" value="Martinel"></property>
-		<property name="prenom" value="Kevin"></property>
+		<property name="pseudo" value="Martinel"></property>
+		
 		<property name="score" value="0"></property>
 		<property name="urlImage"
 			value="http://www.cnfpt.fr/sites/default/files/images/verbatim/field_visuel_verbatim/1488365975/icone_contact.png"></property>

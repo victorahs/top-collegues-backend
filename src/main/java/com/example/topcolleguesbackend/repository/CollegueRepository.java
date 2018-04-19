@@ -10,8 +10,8 @@ import com.example.topcolleguesbackend.entite.Collegue;
  */
 public interface CollegueRepository extends JpaRepository<Collegue, Integer> {
 
-	Collegue findByNom(String nom);
+	Collegue findByPseudo(String pseudo);
 	
-	Boolean existsByNom(String nom);
+	Boolean existsByPseudo(String pseudo);
 	
 }
