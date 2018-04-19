@@ -42,7 +42,7 @@
 			<id>mariadb</id>
 			<properties>
 				<jdbc.driver>org.mariadb.jdbc.Driver</jdbc.driver>
-				<jdbc.url>jdbc:mariadb://localhost:3306/top-collegues-bdd</jdbc.url>
+				<jdbc.url>jdbc:mariadb://localhost:3306/topcollegues</jdbc.url>
 				<jdbc.user>root</jdbc.user>
 				<jdbc.pass></jdbc.pass>
 			</properties>
@@ -83,6 +83,19 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.hibernate.javax.persistence</groupId>
+			<artifactId>hibernate-jpa-2.1-api</artifactId>
+			<version>1.0.0.Final</version>
+		</dependency>
+		<!-- Implémentation JPA -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-entitymanager</artifactId>
+			<version>${hibernate.version}</version>
+			<scope>runtime</scope>
 		</dependency>
 
 	</dependencies>
