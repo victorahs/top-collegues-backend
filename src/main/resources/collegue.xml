@@ -21,15 +21,15 @@
 	</bean>
 
 	<bean id="C3" class="com.example.topcolleguesbackend.entite.Collegue">
-		<property name="pseudo" value="Buteau"></property>
+		<property name="pseudo" value="sander"></property>
 	
-		<property name="score" value="-1"></property>
+		<property name="score" value="15"></property>
 		<property name="urlImage"
 			value="http://www.cnfpt.fr/sites/default/files/images/verbatim/field_visuel_verbatim/1488365975/icone_contact.png"></property>
 	</bean>
 
 	<bean id="C4" class="com.example.topcolleguesbackend.entite.Collegue">
-		<property name="pseudo" value="Darcy"></property>
+		<property name="pseudo" value="Brochet"></property>
 		
 		<property name="score" value="0"></property>
 		<property name="urlImage"
@@ -37,15 +37,15 @@
 	</bean>
 
 	<bean id="C5" class="com.example.topcolleguesbackend.entite.Collegue">
-		<property name="pseudo" value="Gobert"></property>
+		<property name="pseudo" value="goujon"></property>
 		
-		<property name="score" value="0"></property>
+		<property name="score" value="30"></property>
 		<property name="urlImage"
 			value="http://www.cnfpt.fr/sites/default/files/images/verbatim/field_visuel_verbatim/1488365975/icone_contact.png"></property>
 	</bean>
 
 	<bean id="C6" class="com.example.topcolleguesbackend.entite.Collegue">
-		<property name="pseudo" value="Lefebvre"></property>
+		<property name="pseudo" value="truite"></property>
 		
 		<property name="score" value="0"></property>
 		<property name="urlImage"
@@ -53,9 +53,9 @@
 	</bean>
 
 	<bean id="C7" class="com.example.topcolleguesbackend.entite.Collegue">
-		<property name="pseudo" value="Martinel"></property>
+		<property name="pseudo" value="carpe"></property>
 		
-		<property name="score" value="0"></property>
+		<property name="score" value="25"></property>
 		<property name="urlImage"
 			value="http://www.cnfpt.fr/sites/default/files/images/verbatim/field_visuel_verbatim/1488365975/icone_contact.png"></property>
 	</bean>
