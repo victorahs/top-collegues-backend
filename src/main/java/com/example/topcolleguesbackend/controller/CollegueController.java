@@ -52,6 +52,7 @@ public class CollegueController {
 
 	}
 
+	// TODO ajouter erreur
 	@GetMapping("/{nomCollegue}")
 	public Collegue getCollegue(@PathVariable(value = "nomCollegue") String pseudoCollegue) {
 

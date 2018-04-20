@@ -70,10 +70,10 @@
 		<property name="score" value="0"></property>
 		<property name="urlImage"
 			value="http://www.cnfpt.fr/sites/default/files/images/verbatim/field_visuel_verbatim/1488365975/icone_contact.png"></property>
-						<property name="adresse" value="5 etang du prés"></property>
-			<property name="nom" value="tom"></property>
-			<property name="prenom" value="poui"></property>
-			<property name ="email" value="truite@pisicole.gouv"></property>
+		<property name="adresse" value="5 etang du prés"></property>
+		<property name="nom" value="tom"></property>
+		<property name="prenom" value="poui"></property>
+		<property name="email" value="truite@pisicole.gouv"></property>
 	</bean>
 
 	<bean id="C7" class="com.example.topcolleguesbackend.entite.Collegue">
@@ -82,10 +82,10 @@
 		<property name="score" value="25"></property>
 		<property name="urlImage"
 			value="http://www.cnfpt.fr/sites/default/files/images/verbatim/field_visuel_verbatim/1488365975/icone_contact.png"></property>
-						<property name="adresse" value="5 etang du prés"></property>
-			<property name="nom" value="tom"></property>
-			<property name="prenom" value="poui"></property>
-			<property name ="email" value="truite@pisicole.gouv"></property>
+		<property name="adresse" value="5 etang du prés"></property>
+		<property name="nom" value="tom"></property>
+		<property name="prenom" value="poui"></property>
+		<property name="email" value="truite@pisicole.gouv"></property>
 	</bean>
 
 </beans>
