@@ -6,58 +6,86 @@
 
 	<bean id="C1" class="com.example.topcolleguesbackend.entite.Collegue">
 		<property name="pseudo" value="sum41"></property>
-		
+
 		<property name="score" value="100"></property>
 		<property name="urlImage"
 			value="http://www.cnfpt.fr/sites/default/files/images/verbatim/field_visuel_verbatim/1488365975/icone_contact.png"></property>
+		<property name="adresse" value="5 etang du prés"></property>
+		<property name="nom" value="tom"></property>
+		<property name="prenom" value="poui"></property>
+		<property name="email" value="truite@pisicole.gouv"></property>
 	</bean>
 
 	<bean id="C2" class="com.example.topcolleguesbackend.entite.Collegue">
 		<property name="pseudo" value="Yoshi"></property>
-		
+
 		<property name="score" value="0"></property>
 		<property name="urlImage"
 			value="http://www.cnfpt.fr/sites/default/files/images/verbatim/field_visuel_verbatim/1488365975/icone_contact.png"></property>
+		<property name="adresse" value="5 etang du prés"></property>
+		<property name="nom" value="tom"></property>
+		<property name="prenom" value="poui"></property>
+		<property name="email" value="truite@pisicole.gouv"></property>
 	</bean>
 
 	<bean id="C3" class="com.example.topcolleguesbackend.entite.Collegue">
 		<property name="pseudo" value="sander"></property>
-	
+
 		<property name="score" value="15"></property>
 		<property name="urlImage"
 			value="http://www.cnfpt.fr/sites/default/files/images/verbatim/field_visuel_verbatim/1488365975/icone_contact.png"></property>
+		<property name="adresse" value="5 etang du prés"></property>
+		<property name="nom" value="tom"></property>
+		<property name="prenom" value="poui"></property>
+		<property name="email" value="truite@pisicole.gouv"></property>
 	</bean>
 
 	<bean id="C4" class="com.example.topcolleguesbackend.entite.Collegue">
 		<property name="pseudo" value="Brochet"></property>
-		
+
 		<property name="score" value="0"></property>
 		<property name="urlImage"
 			value="http://www.cnfpt.fr/sites/default/files/images/verbatim/field_visuel_verbatim/1488365975/icone_contact.png"></property>
+		<property name="adresse" value="5 etang du prés"></property>
+		<property name="nom" value="tom"></property>
+		<property name="prenom" value="poui"></property>
+		<property name="email" value="truite@pisicole.gouv"></property>
 	</bean>
 
 	<bean id="C5" class="com.example.topcolleguesbackend.entite.Collegue">
 		<property name="pseudo" value="goujon"></property>
-		
+
 		<property name="score" value="30"></property>
 		<property name="urlImage"
 			value="http://www.cnfpt.fr/sites/default/files/images/verbatim/field_visuel_verbatim/1488365975/icone_contact.png"></property>
+		<property name="adresse" value="5 etang du prés"></property>
+		<property name="nom" value="tom"></property>
+		<property name="prenom" value="poui"></property>
+		<property name="email" value="truite@pisicole.gouv"></property>
 	</bean>
 
 	<bean id="C6" class="com.example.topcolleguesbackend.entite.Collegue">
 		<property name="pseudo" value="truite"></property>
-		
+
 		<property name="score" value="0"></property>
 		<property name="urlImage"
 			value="http://www.cnfpt.fr/sites/default/files/images/verbatim/field_visuel_verbatim/1488365975/icone_contact.png"></property>
+						<property name="adresse" value="5 etang du prés"></property>
+			<property name="nom" value="tom"></property>
+			<property name="prenom" value="poui"></property>
+			<property name ="email" value="truite@pisicole.gouv"></property>
 	</bean>
 
 	<bean id="C7" class="com.example.topcolleguesbackend.entite.Collegue">
 		<property name="pseudo" value="carpe"></property>
-		
+
 		<property name="score" value="25"></property>
 		<property name="urlImage"
 			value="http://www.cnfpt.fr/sites/default/files/images/verbatim/field_visuel_verbatim/1488365975/icone_contact.png"></property>
+						<property name="adresse" value="5 etang du prés"></property>
+			<property name="nom" value="tom"></property>
+			<property name="prenom" value="poui"></property>
+			<property name ="email" value="truite@pisicole.gouv"></property>
 	</bean>
 
 </beans>

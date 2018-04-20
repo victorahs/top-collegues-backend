@@ -32,6 +32,18 @@ public class Collegue {
 	@Column(name = "SCORE")
 	private Integer score;
 
+	@Column(name = "ADRESSE")
+	private String adresse;
+
+	@Column(name = "NOM")
+	private String nom;
+
+	@Column(name = "PRENOM")
+	private String prenom;
+
+	@Column(name = "EMAIL")
+	private String email;
+
 	public Collegue() {
 		// Constructeur vide
 	}
@@ -106,14 +118,94 @@ public class Collegue {
 		this.score = score;
 	}
 
-	public Collegue(Integer id, String pseudo, String urlImage, Integer score) {
+	public Collegue(Integer id, String pseudo, String urlImage, Integer score, String adresse, String nom,
+			String prenom, String email) {
 		super();
 		this.id = id;
 		this.pseudo = pseudo;
 		this.urlImage = urlImage;
 		this.score = score;
+		this.adresse = adresse;
+		this.nom = nom;
+		this.prenom = prenom;
+		this.email = email;
 	}
 
+	/**
+	 * Getter
+	 * 
+	 * @return the adresse
+	 */
+	public String getAdresse() {
+		return adresse;
+	}
+
+	/**
+	 * Setter
+	 * 
+	 * @param adresse
+	 *            the adresse to set
+	 */
+	public void setAdresse(String adresse) {
+		this.adresse = adresse;
+	}
+
+	/**
+	 * Getter
+	 * 
+	 * @return the nom
+	 */
+	public String getNom() {
+		return nom;
+	}
+
+	/**
+	 * Setter
+	 * 
+	 * @param nom
+	 *            the nom to set
+	 */
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+
+	/**
+	 * Getter
+	 * 
+	 * @return the prenom
+	 */
+	public String getPrenom() {
+		return prenom;
+	}
+
+	/**
+	 * Setter
+	 * 
+	 * @param prenom
+	 *            the prenom to set
+	 */
+	public void setPrenom(String prenom) {
+		this.prenom = prenom;
+	}
+
+	/**
+	 * Getter
+	 * 
+	 * @return the email
+	 */
+	public String getEmail() {
+		return email;
+	}
+
+	/**
+	 * Setter
+	 * 
+	 * @param email
+	 *            the email to set
+	 */
+	public void setEmail(String email) {
+		this.email = email;
+	}
 
 
 }
