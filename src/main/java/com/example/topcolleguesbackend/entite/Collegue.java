@@ -20,15 +20,13 @@ public class Collegue {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "ID")
 	private Integer id;
-	
+
 	@Column(name = "PSEUDO")
 	private String pseudo;
-	
 
-	
 	@Column(name = "URL_IMAGE")
 	private String urlImage;
-	
+
 	@Column(name = "SCORE")
 	private Integer score;
 
@@ -48,7 +46,9 @@ public class Collegue {
 		// Constructeur vide
 	}
 
-	/** Getter
+	/**
+	 * Getter
+	 * 
 	 * @return the id
 	 */
 	public Integer getId() {
@@ -84,7 +84,9 @@ public class Collegue {
 		this.pseudo = pseudo;
 	}
 
-	/** Getter
+	/**
+	 * Getter
+	 * 
 	 * @return the urlImage
 	 */
 	public String getUrlImage() {
@@ -101,7 +103,9 @@ public class Collegue {
 		this.urlImage = urlImage;
 	}
 
-	/** Getter
+	/**
+	 * Getter
+	 * 
 	 * @return the score
 	 */
 	public Integer getScore() {
@@ -115,7 +119,13 @@ public class Collegue {
 	 *            the score to set
 	 */
 	public void setScore(Integer score) {
-		this.score = score;
+		if (score > 1000) {
+			this.score = 1000;
+		} else if (score < -1000) {
+			this.score = -1000;
+		} else {
+			this.score = score;
+		}
 	}
 
 	public Collegue(Integer id, String pseudo, String urlImage, Integer score, String adresse, String nom,
@@ -206,6 +216,5 @@ public class Collegue {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-
 
 }
