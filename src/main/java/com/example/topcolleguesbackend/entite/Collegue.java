@@ -7,14 +7,22 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-/**
- * @author Emmanuel
- *
- */
+
 
 @Entity
 @Table(name = "COLLEGUE")
 public class Collegue {
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		return "Collegue [id=" + id + ", pseudo=" + pseudo + ", urlImage=" + urlImage + ", score=" + score
+				+ ", adresse=" + adresse + ", nom=" + nom + ", prenom=" + prenom + ", email=" + email + "]";
+	}
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
